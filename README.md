@@ -1,14 +1,12 @@
 NAME: Pranavi Kandikonda
-
 COMPANY: CODTECH IT SOLUTIONS
-
 ID: CT4SD3597
-
 DOMAIN: Software Development
 DURATION: July to August 2024
 MENTOR: Neela Santhosh Kumar
 
 OVERVIEW OF THE PROJECT:
+
 Project: Task Management Tool
 
 Objective:
