@@ -42,10 +42,14 @@ Marking a task as completed:
 Deleting a task (here we have deleted "Read a story book" task):
 ![image](https://github.com/user-attachments/assets/add1b330-c1d6-497c-b0aa-5d719be21a63)
 
-
+Creating a new task(here we are creating a task named "Learn Trignometry")
 ![image](https://github.com/user-attachments/assets/3bd2c345-4b23-4a76-a086-e320615bed6c)
+
+Updating a task(here we are updating the task from "Create a website" to "Create a website for task management")
 ![image](https://github.com/user-attachments/assets/fd36b42b-df1c-45fa-9bc6-9f7721dd6225)
 ![image](https://github.com/user-attachments/assets/3e8e48b2-ceb0-43a1-9fff-73c824177d79)
+
+Searching for a task:
 ![image](https://github.com/user-attachments/assets/eb703e94-9632-4683-9af3-a697308887fd)
 
 
