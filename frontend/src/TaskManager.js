@@ -58,8 +58,8 @@ function TaskManager(){
         try {
             const {data} = await GetAllTasks();
             //console.log(data);
-            setTasks(data);
-            setCopyTasks(data);
+            setTasks(data || []);
+            setCopyTasks(data || []);
         } catch(err) {
             console.error(err);
             notify('Failed to fetch tasks', 'error');
@@ -164,7 +164,7 @@ function TaskManager(){
 
                 <div className="w-full m-5 p-10">
                     {
-                        tasks.map((item) => (
+                        Array.isArray(tasks) && tasks.map((item) => (
                             <div key={item._id} className="bg-white p-4 rounded shadow-md mb-4 border-2 border-slate-400">
                                 <h3 className={`text-xl font-bold my-1 capitalize ${item.isDone ? "line-through" : ""}`}> {item.taskName} </h3>
                                 <button className="px-3 py-1 text-white font-bold rounded me-3 mt-3 bg-green-600 hover:bg-green-400" onClick={() => handleCheckAndUncheck(item)}> Completed <span className="mx-2"> <SiTicktick className="inline"/> </span> </button>
